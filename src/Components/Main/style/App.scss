@@ -1,5 +1,19 @@
 .App {
   text-align: center;
+  height: 700px;
+  background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+
+  .container-index{
+    width: 100%;
+
+    .image-index{
+      height: auto;
+      width: 40%;
+      margin-top: 4%;
+      float: left;
+      margin-left: 3%;
+    }
+  }
 }
 
 .App-logo {
