@@ -1,17 +1,35 @@
+@font-face {
+  font-family: 'Moon';
+  src: local('Moon'), url(./fonts/Moon2.0-Regular.otf);
+}
+
 .App {
   text-align: center;
   height: 700px;
-  background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+
+  .container-text{
+    padding: 15% 0% 0% 0%;
+  }
+
+  .text-about{
+    display: inline-block;
+    max-width: 67%;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #b16952;
+    font-size: 17px;
+    text-align: justify;
+  }
 
   .container-index{
-    width: 100%;
 
     .image-index{
       height: auto;
-      width: 40%;
-      margin-top: 4%;
+      width: 60%;
+      margin-top: 15%;
       float: left;
-      margin-left: 3%;
+      margin-left: 25%;
     }
   }
 }

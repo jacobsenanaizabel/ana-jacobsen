@@ -20,22 +20,22 @@ class Menu extends Component {
           <ul className="nav navbar-nav navbar-right">
             <li>
               <Link className="li-style" to="/about">
-                Sobre
+                SOBRE
               </Link>
             </li>
             <li>
               <Link className="li-style" to="/contact">
-                Contato
+                CONTATO
               </Link>
             </li>
             <li>
               <Link className="li-style" to="/blog">
-                Blog
+                BLOG
               </Link>
             </li>
             <li>
               <Link className="li-style" to="/portfolio">
-                Portfolio
+                PORTFOLIO
               </Link>
             </li>
           </ul>
