@@ -1,8 +1,3 @@
-@font-face {
-  font-family: 'Moon';
-  src: local('Moon'), url(./fonts/Moon2.0-Regular.otf);
-}
-
 .App {
   text-align: center;
   height: 700px;
@@ -20,6 +15,10 @@
     color: #b16952;
     font-size: 17px;
     text-align: justify;
+  }
+
+  .container-about{
+    margin: 0px;
   }
 
   .container-index{

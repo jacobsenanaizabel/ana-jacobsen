@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './style/index.css';
 import App from './Components/Main/App';
 import About from './Components/About/About';
 import Blog from './Components/Blog/Blog';

@@ -8,7 +8,7 @@ class App extends Component {
     return (
       <div className="App">
         <Menu />
-        <div className="row">
+        <div className="row container-about">
           <div className="container-index col-md-6">
             <img className="image-index" src={Logo} />
           </div>
