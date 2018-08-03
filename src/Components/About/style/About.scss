@@ -11,7 +11,12 @@
             margin-top: 9%;
             position:relative;
             right: 33%;
+            transition: all 0.8s ease;
             width: 26%;
+
+            &:hover{
+                filter: sepia(0%);
+            }
         }
 
         .text-about {

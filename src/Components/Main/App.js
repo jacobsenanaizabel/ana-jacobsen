@@ -36,6 +36,7 @@ class App extends Component {
                 (this.state.slide ? 'image-index-transition' : '')
               }
               src={Logo}
+              alt="icon"
             />
           </div>
           <div className="col-md-6 container-text">

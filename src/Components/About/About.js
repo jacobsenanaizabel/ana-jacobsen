@@ -10,7 +10,7 @@ class About extends Component {
         <Menu />
         <div className="row about">
           <div className="container-me-image col-md-12">
-            <img className="image-me" src={me} />
+            <img className="image-me" src={me} alt="ana jacobsen" />
           </div>
           <div className="container-about col-md-12">
             <label className="text-about">
