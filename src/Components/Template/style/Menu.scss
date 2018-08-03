@@ -1,22 +1,48 @@
-@import 'style/variables';
+@import 'style/variables.scss';
 
 img.navbar-brand.nav-icon {
-    padding: 2px;
+    cursor: crosshair;
     height: 89px;
+    padding: 2px;
+    transform: scale3d(1.2, 1.2, 1.2);
 }
-
+.navbar-fixed-top{
+    cursor: crosshair;
+}
 .li-style {
+    background-color: transparent !important;
+    border-left: 2px solid;
     color: #d27a5d;
+    cursor: crosshair;
     font-family: $font-stack;
     font-size: 19px;
     padding: 10px 40px;
-    border-left: 2px solid;
-
+    transition: all 0.5s ease-in-out;
     >a {
         padding-top: 35px;
         padding: 10px 40px;
     }
+
+    &:hover{
+        background-color: transparent !important;
+        border-bottom: 2px solid;
+        border-left: none;
+        color: #d27a5d;
+        transform: scale(0.7);
+        transform: scaleX(10px);
+        transition: all 0.5s ease-in-out;
+    }
+
+    &.disabled {
+        cursor: none;
+        pointer-events: none;
+        
+        &:hover{
+            color: grey;
+        }
+    }
 }
+
 li {
     padding-top: 10px;
 }

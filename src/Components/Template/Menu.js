@@ -29,12 +29,22 @@ class Menu extends Component {
               </Link>
             </li>
             <li>
-              <Link className="li-style" to="/blog">
+              <Link
+                className="li-style disabled"
+                to="/blog"
+                alt="Ainda estamos em manutenção desta pagina"
+                title="Ainda estamos em manutenção desta pagina"
+              >
                 BLOG
               </Link>
             </li>
             <li>
-              <Link className="li-style" to="/portfolio">
+              <Link
+                className="li-style disabled"
+                to="/portfolio"
+                alt="Ainda estamos em manutenção desta pagina"
+                title="Ainda estamos em manutenção desta pagina"
+              >
                 PORTFOLIO
               </Link>
             </li>
