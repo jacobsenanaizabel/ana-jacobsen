@@ -1,4 +1,5 @@
 .Contact {
+    animation: opacityFaster 0.5s;
     background-image: linear-gradient(to right, #ffbe98 16%, #ff9a9e 77%);
     height: 700px;
 
@@ -9,12 +10,79 @@
             margin-bottom: 2%;
             
             .contact-title {
-                position: relative;
+                color: #b05f44;
+                font-family: Moon;
+                font-size: 46px;
                 left: 31%;
                 margin: 0px;
-                font-size: 46px;
-                font-family: Moon;
-                color: #b05f44;
+                position: relative;
+                padding: 0px;
+            }
+
+            .coffe-img.col-md-8 {
+                left: 62%;
+                width: 7%;
+                height: 50px;
+                position: absolute;
+
+                .cup {
+                    width: 58px;
+                    background: #fdd47a;
+
+                    img.mug {
+                        position: absolute;
+                        left: 31px;
+                        width: 51px;
+                    }
+
+                    .smoke:before{
+                        position: absolute;
+                        content: "";
+                        background: transparent;
+                        width: 61px;
+                        height: 30px;
+                        top: -35px;
+                        box-shadow: 0px 25px 20px -9px #e5e5e5;
+                        opacity: 0;
+                        animation: smoke 4s linear infinite;
+                    }
+
+                    .smoke:after{
+                        position: absolute;
+                        content: "";
+                        background: transparent;
+                        width: 61px;
+                        height: 30px;
+                        top: -35px;
+                         box-shadow: 0px 25px 20px -9px #e5e5e5;
+                        opacity: 0;
+                        animation: smoke 4s linear 2s infinite;
+                        transition: 0.5s linear;
+                      }
+
+                    @keyframes smoke {
+                        0% {
+                            transform: translateY(0px);
+                        }
+
+                        50% {
+                            transform: translateY(-35px);
+                            opacity: 1;
+                        }
+
+                        70% {
+                            transform: translateY(-55px);
+                            opacity: 0.8;
+                        }
+
+                        100% {
+                            transform: translateY(-115px);
+                            opacity: 0.2;
+                            width: 20%;
+                            margin-left: 40px;
+                        }
+                    }
+                }       
             }
         }
         .form-container {
@@ -27,7 +95,7 @@
             .button-send{
                 background-color: #b05f44;
                 border: none;
-                color: #d6d4d3;
+                color: #fffdfc;
                 font-family: Moon;
                 font-size: 20px;
                 height: 60px;
@@ -45,4 +113,10 @@
             }
         }
     }
+    
+    @keyframes opacityFaster {
+        from{ opacity: 0.5;}
+        to { opacity: 1.0;}
+    }
 }
+

@@ -3,9 +3,6 @@ import './style/App.css';
 import Menu from './../Template/Menu';
 import Logo from './style/imgs/logo.png';
 
-const styles = {
-  transition: 'all 2s ease'
-};
 class App extends Component {
   constructor() {
     super();
@@ -26,27 +23,12 @@ class App extends Component {
       <div className="App">
         <Menu />
         <div className="row container-about">
-          <div
-            className="container-index col-md-6 "
-            onLoad={this.onSlide.bind(this)}
-          >
-            <img
-              className={
-                'image-index ' +
-                (this.state.slide ? 'image-index-transition' : '')
-              }
-              src={Logo}
-              alt="icon"
-            />
+          <div className="container-index col-md-6 ">
+            <img className="image-index " src={Logo} alt="icon" />
           </div>
           <div className="col-md-6 container-text">
             <h1 className="welcome-title">Olá, seja bem-vindo</h1>
-            <label
-              className={
-                'text-about ' + (this.state.flip ? 'text-transition-open' : '')
-              }
-              style={{ ...styles }}
-            >
+            <label className="text-about ">
               Etiam ullamcorper ultrices ipsum non faucibus. Pellentesque
               sagittis eget lacus iaculis tempor. Nunc pellentesque sem eget
               congue porttitor. Proin arcu purus, accumsan a metus non, porta

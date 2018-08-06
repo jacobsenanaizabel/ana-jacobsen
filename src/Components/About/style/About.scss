@@ -1,35 +1,46 @@
 .About{
+    animation: opacityFaster 0.5s;
     background-image: linear-gradient(to right, #ffc3a0 0%, #ffafbd 100%); //Gentle Care
     height: 700px;
-
+    
     .about{
-        .image-me{
-            border-radius: 50%;
-            filter: sepia(100%);
-            height: 290px;
-            left: calc(38%);
-            margin-top: 9%;
-            position:relative;
-            right: 33%;
-            transition: all 0.8s ease;
-            width: 26%;
-
-            &:hover{
-                filter: sepia(0%);
-            }
-        }
+        position: relative;
+        top: 20%;
 
         .text-about {
             color: #b16952;
             display: inline-block;
             font-family: Moon;
-            font-size: 25px;
+            font-size: 17px;
             left: 25%;
             letter-spacing: 1.5px;
             margin-top: 5px;
             position: relative;
             text-align: justify;
             width: 52%;
+
+            .container-me-image {
+                float: right;
+                margin-left: 15px;
+                position: relative;
+                width: 40%;
+
+                .image-me{ 
+                    border-radius: 50%;
+                    filter: sepia(100%);
+                    transition: all 0.8s ease;
+                    width: 90%;
+
+                    &:hover{
+                        filter: sepia(0%);
+                    }
+                }
+            }    
         }
+    }
+    
+    @keyframes opacityFaster {
+        from { opacity: 0.5;}
+        to { opacity: 1.0;}
     }
 }

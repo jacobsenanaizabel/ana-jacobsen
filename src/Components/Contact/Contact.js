@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Menu from './../Template/Menu';
+import Mug from './style/imgs/mug.svg';
 import './style/Contact.css';
 
 class Contact extends Component {
@@ -10,9 +11,15 @@ class Contact extends Component {
         <div className="row container-contact">
           <div className="container-titles">
             <h1 className="contact-title">Entre em contato, </h1>
-            <h1 className="contact-title">
-              vamos tomar um café <div className="coffe-img" />
-            </h1>
+            <div className="row lets-talk">
+              <h1 className="contact-title col-md-4">vamos tomar um café </h1>
+              <div className="coffe-img col-md-8">
+                <div className="cup">
+                  <img className="mug" src={Mug} alt="mug icon" />
+                  <span className="smoke" />
+                </div>
+              </div>
+            </div>
           </div>
           <div className="form-container">
             <form className="form-horizontal">

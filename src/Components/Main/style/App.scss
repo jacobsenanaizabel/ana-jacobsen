@@ -4,6 +4,7 @@
   background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
   height: 700px;
   text-align: center;
+  animation: opacityEffect 1s;
 
   .container-text {
     padding: 12% 4% 0% 0%;
@@ -23,22 +24,18 @@
     font-family: $font-stack;
     font-size: 17px;
     font-weight: bold;
-    left: 97%;
     letter-spacing: 1.5px;
     margin-bottom: 5px;
     max-width: 62%;
-    opacity: 0;
     padding-left: 82%;
     position: relative;
     text-align: justify;
+    animation: slideLeft;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    animation-timing-function: linear;
   }
-
-  .text-transition-open {
-    left: 0%;
-    opacity: 1;
-    padding-left: 0%;
-  }
-
+  
   .container-about {
     margin: 0px;
   }
@@ -46,24 +43,61 @@
   .container-index {
 
     .image-index {
-      float: left;
       height: 0px;
-      margin-left: 28%;
-      padding-top: 90%;
       width: 60%;
       z-index: 20;
+      animation: slideUp;
+      animation-duration: 2s;
+      animation-fill-mode: both;
+      animation-timing-function: linear;
     }
-
-    
-    .image-index-transition {
-      float: left;
-      height: auto;
-      margin-left: 25%;
-      padding-top: 29%;
-      transform: translate(0px, -100px);
-      transition: all 2s ease-out;
-    }
+  
   }
 }
 
+@keyframes slideLeft {
+  from {opacity:0; padding-left: 82%; left: 97%;}
+  to {opacity: 1; padding-left: 0%; left: 0%;}
+  
+}
 
+@keyframes slideUp {
+  0% {
+    height: auto;
+    padding-top: 90%;
+    transform: translate(0px, -10px);
+  }
+  50% {
+    transform: translate(0px, -30px);
+  }
+  75% {
+    transform: translate(0px, -60px);
+  }
+  100% {
+    height: auto;
+    padding-top: 29%;
+    transform: translate(0px, -100px); 
+  }
+}  
+
+@keyframes opacityEffect {
+  0% {
+    opacity: 0.3;
+  }
+
+  25% {
+    opacity: 0.4;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+
+  70% {
+    opacity: 0.8;
+  }
+
+  100%{
+    opacity: 1.0;
+  }
+}
