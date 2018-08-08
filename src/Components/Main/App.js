@@ -23,10 +23,10 @@ class App extends Component {
       <div className="App">
         <Menu />
         <div className="row container-about">
-          <div className="container-index col-md-6 ">
+          <div className="container-index col-md-6 col-sm-6">
             <img className="image-index " src={Logo} alt="icon" />
           </div>
-          <div className="col-md-6 container-text">
+          <div className="col-md-6 container-text col-sm-6 mobile">
             <h1 className="welcome-title">Olá, seja bem-vindo</h1>
             <label className="text-about ">
               Etiam ullamcorper ultrices ipsum non faucibus. Pellentesque

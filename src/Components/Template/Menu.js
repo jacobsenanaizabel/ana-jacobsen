@@ -6,7 +6,7 @@ import './style/Menu.css';
 class Menu extends Component {
   render() {
     return (
-      <nav className="navbar-form navbar-fixed-top">
+      <nav className="navbar-form navbar-fixed-top mobile">
         <div className="container">
           <div className="navbar-header">
             <Link to="/">
