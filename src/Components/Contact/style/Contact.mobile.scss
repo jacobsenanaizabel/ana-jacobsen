@@ -2,6 +2,7 @@
  
     .Contact {
 
+        height: calc(100% - (20px + 30px)) !important;
         .row.container-contact.mobile {
             top: 0%;
 
@@ -9,7 +10,7 @@
 
                 .contact-title.mobile {
                     font-size: 25px;
-                    left: 31%;
+                    left: 24%;
                     margin: 0px;
                     padding: 0px;
                 }

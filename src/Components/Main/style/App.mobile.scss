@@ -1,11 +1,13 @@
 @media screen and (max-width: 750px) {
 
     .App {
+    
+        height: calc(100% - (20px + 30px)) !important;
         .container-text.mobile {
             padding: 0px;
             
             .text-about {
-                margin-top: 30%;
+                margin-top: 1%;
             }
             
             .welcome-title{

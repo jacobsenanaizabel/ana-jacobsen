@@ -2,6 +2,7 @@
 
     .About{
         
+        height: calc(100% - (20px + 30px)) !important;
         .about {
             &.mobile{
                 top: 0%;

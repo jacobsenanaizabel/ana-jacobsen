@@ -3,11 +3,11 @@
 .About{
     animation: opacityFaster 0.5s;
     background-image: linear-gradient(to right, #ffc3a0 0%, #ffafbd 100%); //Gentle Care
-    height: 700px;
+    height: 100vw;
     
     .about{
         position: relative;
-        top: 20%;
+        top: 8%;
 
         .text-about {
             color: #b16952;
