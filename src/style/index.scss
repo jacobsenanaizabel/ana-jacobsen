@@ -23,9 +23,9 @@ ol, ul {
   list-style: none;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
 
   body {
-    //overflow-y: show;
+    overflow-y: scroll;
   }
 }

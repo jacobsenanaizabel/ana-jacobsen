@@ -3,6 +3,15 @@
     .App {
         .container-text.mobile {
             padding: 0px;
+            
+            .text-about {
+                margin-top: 30%;
+            }
+            
+            .welcome-title{
+                font-size: 35px;
+                margin-bottom: 5px;
+            }
         }
     }
 }

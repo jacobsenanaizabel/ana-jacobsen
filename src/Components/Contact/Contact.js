@@ -6,13 +6,17 @@ import './style/Contact.css';
 class Contact extends Component {
   render() {
     return (
-      <div className="Contact">
+      <div className="Contact mobile">
         <Menu />
-        <div className="row container-contact">
+        <div className="row container-contact mobile">
           <div className="container-titles">
-            <h1 className="contact-title">Entre em contato, </h1>
+            <h1 className="contact-title mobile col-sm-12">
+              Entre em contato,{' '}
+            </h1>
             <div className="row lets-talk">
-              <h1 className="contact-title col-md-4">vamos tomar um café </h1>
+              <h1 className="contact-title mobile col-md-4 col-sm-12">
+                vamos tomar um café{' '}
+              </h1>
               <div className="coffe-img col-md-8">
                 <div className="cup">
                   <img className="mug" src={Mug} alt="mug icon" />

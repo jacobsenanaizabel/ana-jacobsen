@@ -1,0 +1,21 @@
+@media screen and (max-width: 750px) {
+
+    .About{
+        
+        .about {
+            &.mobile{
+                top: 0%;
+            }
+        } 
+        
+        .text-about {   
+            left: 0%;
+            margin-top: 0px;
+
+            .container-me-image.mobile {
+                right: 0%;
+            }
+        }
+        
+    } 
+}

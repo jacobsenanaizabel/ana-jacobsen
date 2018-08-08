@@ -1,3 +1,5 @@
+@import 'Components/Contact/style/Contact.mobile.scss';
+
 .Contact {
     animation: opacityFaster 0.5s;
     background-image: linear-gradient(to right, #ffbe98 16%, #ff9a9e 77%);
@@ -19,7 +21,7 @@
                 padding: 0px;
             }
 
-            .coffe-img.col-md-8 {
+            .coffe-img {
                 left: 62%;
                 width: 7%;
                 height: 50px;

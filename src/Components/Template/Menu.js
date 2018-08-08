@@ -11,7 +11,7 @@ class Menu extends Component {
           <div className="navbar-header">
             <Link to="/">
               <img
-                className="navbar-brand nav-icon"
+                className="navbar-brand nav-icon mobile"
                 alt="Ana Jacobsen!"
                 src={icon}
               />

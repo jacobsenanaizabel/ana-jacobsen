@@ -8,13 +8,13 @@ class About extends Component {
     return (
       <div className="About">
         <Menu />
-        <div className="row about">
+        <div className="row about mobile">
           <div className="container-about col-md-12">
             <label className="text-about">
               Etiam ullamcorper ultrices ipsum non faucibus. Pellentesque
               sagittis eget lacus iaculis tempor. Nunc pellentesque sem eget
               congue porttitor.
-              <div className="container-me-image">
+              <div className="container-me-image mobile">
                 <img className="image-me" src={me} alt="ana jacobsen" />
               </div>
               Proin arcu purus, accumsan a metus non, porta consequat elit.

@@ -1,0 +1,34 @@
+@media screen and (max-width: 750px) {
+ 
+    .Contact {
+
+        .row.container-contact.mobile {
+            top: 0%;
+
+            .container-titles {
+
+                .contact-title.mobile {
+                    font-size: 25px;
+                    left: 31%;
+                    margin: 0px;
+                    padding: 0px;
+                }
+                
+                .coffe-img {
+                    visibility: hidden;
+                }
+
+            }
+            .form-container {
+
+                .button-send{
+                    font-size: 14px;
+                    height: 35px;
+                    margin-top: 5px;
+                    width: 100%;
+                }
+            }
+        }
+
+    } 
+}
