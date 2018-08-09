@@ -1,10 +1,12 @@
 @media screen and (max-width: 750px) {
  
     .Contact {
-
         height: calc(100% - (20px + 30px)) !important;
+        overflow: auto;
+        
         .row.container-contact.mobile {
             top: 0%;
+            overflow-x: hidden;
 
             .container-titles {
 
@@ -16,7 +18,7 @@
                 }
                 
                 .coffe-img {
-                    visibility: hidden;
+                    display: none;
                 }
 
             }
