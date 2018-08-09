@@ -24,7 +24,7 @@ class App extends Component {
         <Menu />
         <div className="row container-about">
           <div className="container-index col-md-6 col-sm-6">
-            <img className="image-index " src={Logo} alt="icon" />
+            <img className="image-index mobile" src={Logo} alt="icon" />
           </div>
           <div className="col-md-6 container-text col-sm-6 mobile">
             <h1 className="welcome-title">Olá, seja bem-vindo</h1>
