@@ -12,7 +12,8 @@
 
                 .contact-title.mobile {
                     font-size: 25px;
-                    left: 24%;
+                    left: 0%;
+                    text-align: center;
                     margin: 0px;
                     padding: 0px;
                 }
@@ -30,6 +31,11 @@
                     margin-top: 5px;
                     width: 100%;
                 }
+                
+            }
+            
+            .col-sm-6.name-input {
+                margin-bottom: 15px;
             }
         }
 

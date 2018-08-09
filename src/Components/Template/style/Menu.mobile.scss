@@ -8,16 +8,20 @@
         text-align: center;
         width: 100%;
 
-        img.navbar-brand {
-           float: none;
+        .navbar-header {
 
-            &.nav-icon.mobile {
-                cursor: default;
-                height: 60px;
-                transform: scale3d(1.0, 1.0, 1.0);
+            height: 40px;
+            img.navbar-brand {
+            float: none;
+
+                &.nav-icon.mobile {
+                    cursor: default;
+                    height: 60px;
+                    transform: scale3d(1.0, 1.0, 1.0);
+                }
+
             }
-
-        }
+        }   
 
         .li-style {
 

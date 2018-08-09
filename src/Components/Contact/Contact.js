@@ -28,7 +28,7 @@ class Contact extends Component {
           <div className="form-container">
             <form className="form-horizontal">
               <div className="form-group">
-                <div className="col-sm-6">
+                <div className="col-sm-6 name-input">
                   <input
                     type="name"
                     className="form-control input-form"
