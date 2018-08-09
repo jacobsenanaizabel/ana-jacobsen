@@ -4,6 +4,7 @@
     animation: opacityFaster 0.5s;
     background-image: linear-gradient(to right, #ffc3a0 0%, #ffafbd 100%); //Gentle Care
     height: 100vw;
+    overflow-x: auto;
     
     .about{
         position: relative;
